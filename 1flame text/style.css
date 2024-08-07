@@ -1,0 +1,23 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.burn {
+    /* !image inside text properties */
+    background-image: url(flame.gif);
+    background-size:contain;
+    background-position: contain;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+
+    /*? only for text alignment  properties*/
+    font-size: 100px;
+    font-weight: 900;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+#ok{
+    color: blue;
+}

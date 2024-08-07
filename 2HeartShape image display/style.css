@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+img{
+    height: 340px;
+    width: 400px;
+    object-fit:cover;
+    object-position: top;
+    -webkit-mask-image: url(./pngegg.png);
+    -webkit-mask-size: contain;
+}
